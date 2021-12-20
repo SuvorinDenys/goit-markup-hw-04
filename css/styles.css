@@ -44,7 +44,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px red solid;
+  /* outline: 1px red solid; */
 }
 .section {
   padding-bottom: 94px;
@@ -287,15 +287,16 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.our-team-icon a {
+.team-social-links {
   display: flex;
+  padding-left: 0px;
 }
+
 .our-team-icon {
   width: 44px;
   height: 44px;
   padding: 12px;
 }
-
 .our-team-list-item-header {
   color: var(--secondary-color);
   font-weight: 500;
