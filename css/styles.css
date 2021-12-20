@@ -212,6 +212,14 @@ img {
 .features-list li {
   width: 270px;
 }
+.features-icon {
+  background-color: var(--background-color-third);
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
 .features-list li:not(:last-child) {
   margin-right: 30px;
 }
