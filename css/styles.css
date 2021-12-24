@@ -300,6 +300,7 @@ img {
 }
 .our-team-icon {
   fill: var(--icons-color);
+  border-radius: 50%;
   width: 44px;
   height: 44px;
   padding: 12px;
