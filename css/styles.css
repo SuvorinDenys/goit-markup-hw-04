@@ -300,8 +300,9 @@ img {
 }
 .our-team-icon {
   fill: var(--icons-color);
-  border-radius: 50%;
-  margin: 12px;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
 }
 .our-team-icon:focus,
 .our-team-icon:hover {
@@ -402,7 +403,9 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.footer-sections {
+  display: flex;
+}
 .address-list {
   display: flex;
   flex-direction: column;
@@ -431,6 +434,44 @@ img {
 .contacts-mail-tel:focus {
   color: var(--brand-color);
 }
+.add-to-us {
+  display: block;
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+.add-to-us-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-main-color);
+}
+.add-to-us-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-to-us-links {
+  background-color: #ffffff1a;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.add-to-us-links:hover,
+.add-to-us-links:focus {
+  background-color: var(--brand-color);
+}
+.add-to-us-items {
+  fill: var(--second-main-color);
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+.add-to-us-links:not(:last-child) {
+  margin-right: 10px;
+}
+/* End of Footer */
 
 /* Portfolio Page */
 .main-section {
@@ -489,6 +530,12 @@ img {
 .block {
   border: 1px solid var(--border-block-portfolio-page);
   max-width: 370px;
+}
+.block:focus,
+.block:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .sub-block {
   padding: 20px 24px;
