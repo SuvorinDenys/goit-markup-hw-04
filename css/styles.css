@@ -457,21 +457,21 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.add-to-us-links {
-  background-color: #ffffff1a;
-  border-radius: 50%;
   margin-top: 20px;
 }
-.add-to-us-links:hover,
-.add-to-us-links:focus {
-  background-color: var(--brand-color);
-}
-.add-to-us-items {
+.add-to-us-links a {
+  background-color: #ffffff1a;
+  border-radius: 50%;
   fill: var(--second-main-color);
   width: 44px;
   height: 44px;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-us-links a:hover,
+.add-to-us-links a:focus {
+  background-color: var(--brand-color);
 }
 .add-to-us-links:not(:last-child) {
   margin-right: 10px;
