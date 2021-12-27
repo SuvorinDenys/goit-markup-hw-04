@@ -354,28 +354,24 @@ img {
   align-items: center;
   justify-content: center;
 }
-.clients-items {
+.clients-items a {
   border: 1px solid var(--icons-color);
+  fill: var(--icons-color);
   width: 170px;
   height: 92px;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.clients {
-  fill: var(--icons-color);
-}
-.clients-items:focus,
-.clients-items:hover {
+.clients-items a:focus,
+.clients-items a:hover {
   border: 1px solid var(--brand-color);
-  cursor: pointer;
-}
-.clients:hover,
-.clients:focus {
   fill: var(--brand-color);
 }
 .clients-items:not(:last-child) {
   margin-right: 30px;
 }
-
 /* End of Clients */
 
 /* Logo Footer */
@@ -498,7 +494,7 @@ img {
   color: var(--secondary-color);
   background-color: var(--background-color-third);
   cursor: pointer;
-  border: 1px solid var(--background-color-third);
+  border: none;
   border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -512,10 +508,14 @@ img {
 .filter-buttons:hover {
   color: var(--second-main-color);
   background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-list .current-button {
   color: var(--second-main-color);
   background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* End of Buttons */
 
